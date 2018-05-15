@@ -5,10 +5,13 @@ gem 'rake'
 gem 'thin'
 gem 'shotgun'
 gem 'require_all'
+gem 'pry'
+gem 'byebug'
 
 group :test, :development do
   gem 'rspec'
   gem 'capybara'
   gem 'rack-test'
   gem 'pry'
+  gem 'byebug'
 end
